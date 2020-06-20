@@ -1,0 +1,263 @@
+
+@font-face {
+    font-family: 'maghribregular';
+    src: url('font/maghrib-mvzpx-webfont.woff2') format('woff2'),
+         url('font/maghrib-mvzpx-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'lemon_jelly_personal_useRg';
+    src: url('font3/lemonjellypersonaluse-deqr-webfont.woff2') format('woff2'),
+         url('font3/lemonjellypersonaluse-deqr-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/*h1{
+	font-family: lemon_jelly_personal_useRg;
+	color: white;
+}*/
+
+#part1 {
+	background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(backgrounds/bg5.jpg); 
+	background-size: cover;
+	background-position: center;
+	color: #efefef !important;
+	background-attachment: fixed;
+	padding-top: 5px;
+	padding-bottom: 70px;
+}
+
+.logo{
+	padding: 10px ;
+	height: 500px;
+}
+.part1a{
+	/*padding: 3%;*/
+	padding-right: 60px;
+	padding-left: 60px;
+}
+.heading{
+	color: #FFFFFF;
+	font-size: 100px;
+}
+.description{
+	color: #faeee7;
+	font-family: 'Satisfy', cursive;
+	font-size: 25px;
+	margin-top: 0%!important;
+	padding-top: 0px!important;
+
+}
+.break{
+	padding-left: 50px;
+}
+.review-button{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.features1{
+ text-align: center;
+}
+.metal{
+	font-family: 'Metal Mania', cursive;
+}
+.padd{
+	padding-bottom: 30px;
+}
+#Features{
+	padding: 7% 6%;
+}
+.navbar-brand{
+		font-family: 'Metal Mania', cursive;
+
+}
+.footer{
+	text-align: center;
+	color: #3b6978!important;
+/*	padding: 7% 10%;
+*/
+}
+.social-icon{
+	margin: 20px 10px;
+}
+#latestnews{
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(backgrounds/bg10.jpg); 
+	background-size: cover;
+	background-position: center;
+	color: #efefef !important;
+	background-attachment: fixed;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.card_title{
+	padding: 0%;
+	color: black;
+	margin-bottom: 3% !important; 
+}
+.card_text{
+	color: black;
+	padding: 0px !important;
+}
+.more_button{
+	padding: 2% !important;
+	text-align: center;
+}
+.part_heading{
+	font-size: 50px;
+	text-align: center;
+font-family: 'Metal Mania', cursive;
+color: white;
+}
+.quote{
+	font-family: 'Satisfy', cursive;
+	text-align: center;
+	padding-top: 3%;
+}
+.quote-author{
+	font-family: 'Noto Sans JP', sans-serif;
+	text-align: center;
+	padding-bottom: 3%
+}
+#reviews{
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(backgrounds/bg10.jpg); 
+	background-size: cover;
+	background-position: center;
+	color: #efefef !important;
+	background-attachment: fixed;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.review-title{
+	color: black;
+	padding-top: 2px !important;
+}
+#teasers-sales{
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(backgrounds/bg10.jpg); 
+	background-size: cover;
+	background-position: center;
+	color: #efefef !important;
+	background-attachment: fixed;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.author-img{
+	border-radius: 100%;
+	height: 120px;
+	width: 120px;
+	margin-left: 30px;
+}
+#authors{
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(backgrounds/bg10.jpg); 
+	background-size: cover;
+	background-position: center;
+	color: #efefef !important;
+	background-attachment: fixed;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.author-name{
+	text-align: center;
+	font-family: 'Noto Sans JP', sans-serif;
+}
+.author-info{
+	text-align: center;
+	font-family: 'Satisfy', cursive;
+}
+#upcoming-releases{
+background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(backgrounds/bg10.jpg); 
+	background-size: cover;
+	background-position: center;
+	color: #efefef !important;
+	background-attachment: fixed;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+}
+#recommendations{
+background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(backgrounds/bg10.jpg); 
+	background-size: cover;
+	background-position: center;
+	color: #efefef !important;
+	background-attachment: fixed;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.rec-img{
+	height: 15rem;
+	width: 15rem;
+	margin: 3%;
+}
+.slideshow-img{
+	margin-top: 14%;
+
+}
+/*.container{
+    margin-top: 8%;
+}*/
+ 
+/* IMAGE ZOOM
+*/
+.inner{
+    overflow: hidden;
+}
+ 
+.inner img{
+    transition: all 1.25s ease;
+}
+ 
+.inner:hover img{
+    transform: scale(1.25);
+}
+.effect1{
+	overflow: hidden;
+}
+.effect1:hover{
+	transform: border(2px);
+}
+
+
+/*CARD ZOOM EFFECT*/
+/*.container{
+		width: 90%;
+		padding: 20px;
+		margin: 100px auto;
+		background: #ddd;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}*/
+
+	.box{
+		/*width: 250px;
+		height: 300px;*/
+		/*background: orange;*/
+    /*margin: 0px 10px;*/
+    transition: 1s;
+
+	}
+	.box{
+		color: white!important;
+	}
+	.box:hover{
+		transform: scale(1.1);
+		/*background: #ff800a;*/
+		z-index: 2;
+		/*box-shadow: 2px 2px 2px #000;*/
+		color: white!important;
+		
+	}
+	.author-hover:hover {
+  color: white!important;
+  text-decoration: underline;
+}
+/*LOADER*/
+#loader {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    overflow: visible;
+    background: #fff url('loader.gif') no-repeat center center;
+}	
